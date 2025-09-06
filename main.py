@@ -2,7 +2,7 @@ import os
 import shutil
 
 # 👉 Change this to your Downloads folder
-DOWNLOADS_FOLDER = r"os.path.join(os.path.expanduser("~"), "Downloads")"
+DOWNLOADS_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")
 
 # File type categories
 FILE_TYPES = {
